@@ -45,7 +45,7 @@ async def inline_handlers(_, event: InlineQuery):
         answers.append(
             InlineQueryResultArticle(
                 title="Tutorial Video",
-                description="If you are facing any problem on using this bot, Watch this Tutorial...",
+                description="If you are facing any problem in opening TN link, Watch this Tutorial...",
                 thumb_url="https://i.imgur.com/6jZsMYG.png",
                 input_message_content=InputTextMessageContent(
                     message_text="Please watch this video if you are facing problem in opening links.",
